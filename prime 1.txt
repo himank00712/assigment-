@@ -1,0 +1,27 @@
+#include <stdio.h>
+void main()
+{
+	int a[100], b=0, n,a;
+	printf("enter number to check if it is prime or not:");
+	scanf("%d", &n);
+for(a=2;a<n/2;a++)
+{
+	if (n % a == 1)
+	{
+         b++;
+         break;
+	}
+}
+if(n==1)
+{
+printf("it is neither prime nor composite");
+}
+if(b==1)
+{
+printf("it is prime number");
+}
+else
+{
+printf("it is composite number");
+}
+}
